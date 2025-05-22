@@ -1,0 +1,42 @@
+#Ejercicio 1: Gestión de una lista de compras
+lista_compras = []
+
+lista_compras.append("leche")
+lista_compras.append("pan")
+lista_compras.append("huevos")
+
+cantidad_productos = len(lista_compras)
+print("La lista de compras tiene", cantidad_productos, "productos.")
+
+lista_compras.pop(2)
+
+print(lista_compras)
+
+
+#Ejercicio 2: Contar apariciones
+colores = ["rojo", "azul", "verde", "rojo", "azul", "rojo"]
+
+cantidad_rojo = colores.count("rojo")
+print("El color rojo aparece", cantidad_rojo, "veces en la lista.")
+
+colores[2]='amarillo'
+print(colores)
+
+#Ejercicio 3: Diccionario de estudiante
+
+estudiante = {
+ "nombre": "Ana",
+ "edad": 20,
+ "materias": ["Matemática", "Historia"]
+}
+
+print("Nombre:", estudiante["nombre"])
+print("Edad:", estudiante["edad"])
+
+estudiante["materias"].append("Inglés")
+
+Cantidad_materias = len(estudiante["materias"])
+
+print("El estudiante esta cursando ", Cantidad_materias, "materias")
+print("Materias:", estudiante["materias"])
+print("El estudiante tiene un promerio de ", (estudiante.get("promedio", 0)),".")
