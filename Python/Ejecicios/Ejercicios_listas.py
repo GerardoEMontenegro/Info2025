@@ -15,8 +15,6 @@ print(lista_compras)
 
 #Ejercicio 2: Contar apariciones
 colores = ["rojo", "azul", "verde", "rojo", "azul", "rojo"]
-
-
 print("El color rojo aparece", (colores.count("rojo")), "veces en la lista.")
 
 colores[2]='amarillo'
