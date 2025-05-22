@@ -5,8 +5,8 @@ lista_compras.append("leche")
 lista_compras.append("pan")
 lista_compras.append("huevos")
 
-cantidad_productos = len(lista_compras)
-print("La lista de compras tiene", cantidad_productos, "productos.")
+
+print("La lista de compras tiene", (len(lista_compras)), "productos.")
 
 lista_compras.pop(2)
 
